@@ -1,0 +1,15 @@
+CREATE TABLE `nensa_results_2017`.`JN_U18U20_RANKING` (
+  `Rank` INT NOT NULL,
+  `USSA_Num` INT NOT NULL,
+  `NENSA_Num` INT NOT NULL,
+  `Season` INT NOT NULL,
+  `Athlete_Name` VARCHAR(45) NOT NULL,
+  `Num_Races` INT NULL,
+  `1stBest_Race_Pts` DECIMAL(5,2) NULL,
+  `2ndBest_Race_Pts` DECIMAL(5,2) NULL,
+  `3rdBest_Race_Pts` DECIMAL(5,2) NULL,
+  `4thBest_Race_Pts` DECIMAL(5,2) NULL,
+  `Best2_Avg_Pts` DECIMAL(5,4) NULL,
+  `Best3_Avg_Pts` DECIMAL(5,4) NULL,
+  `Best4_Avg_Pts` DECIMAL(5,4) NULL,
+  PRIMARY KEY (`NENSA_Num`, `Season`));
